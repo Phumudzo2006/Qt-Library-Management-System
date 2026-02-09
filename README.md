@@ -1,114 +1,125 @@
-# 📚 Qt Library Management System
+📚 Qt Library Management System
 
-A **C++ desktop application built with the Qt Framework** that simulates a digital library system.  
-It allows management of books, students, and borrowing records through a user-friendly graphical interface.
+A desktop-based Library Management System built in C++ using the Qt Framework.
+The application provides a graphical user interface for managing books, users, and borrowing records, simulating how real-world library systems operate.
 
----
+This project was built to strengthen my GUI development, object-oriented programming, and event-driven software design skills in preparation for software engineering internship roles.
 
-## 🧠 Project Overview
+🧠 Project Overview
 
-This system was designed to demonstrate:
+The Qt Library Management System demonstrates how desktop applications can manage structured data through an intuitive interface.
+It models real library workflows such as book registration, borrowing, returning, and record tracking.
 
-- Object-Oriented Programming (OOP)
-- GUI Development with Qt
-- File handling / data management
-- Basic database-style record operations
+The project focuses on:
 
-It models how real library systems track books and users.
+Clean GUI design
 
----
+Separation of UI and business logic
 
-## 🖥 Technologies Used
+Reliable state updates using Qt’s event system
 
-| Technology | Purpose |
-|-----------|---------|
-| C++ | Core programming language |
-| Qt Framework | GUI design and application structure |
-| Qt Widgets | Buttons, tables, forms, layouts |
-| File Handling / Data Structures | Store and manage records |
+🛠 Technologies Used
+Technology	Purpose
+C++	Core application logic
+Qt Framework	Application structure and lifecycle
+Qt Widgets	GUI components (buttons, tables, forms)
+Signals & Slots	Event-driven communication
+Data Structures / File Handling	Record storage and updates
+✨ Key Features
+📖 Book Management
 
----
+Add new books
 
-## ✨ Features
+Remove existing books
 
-### 📖 Book Management
-- Add new books  
-- Remove books  
-- View available books  
-- Search books  
+View available books
 
-### 👩‍🎓 Student/User Management
-- Register students  
-- View student records  
+Search books by title
 
-### 🔄 Borrowing System
-- Issue books  
-- Return books  
-- Track borrowed books  
+👩‍🎓 User Management
 
-### 🖥 GUI Interface
-- Interactive buttons  
-- Form inputs  
-- Table displays  
-- Dialog messages  
+Register students/users
 
----
+View stored user records
 
-## 🏗 System Design
+🔄 Borrowing System
 
-The program uses:
+Issue books to users
 
-- **Classes** to represent books and users  
-- **Containers (vectors/maps)** to store records  
-- **Qt Signals & Slots** for GUI interactions  
-- Structured functions for each operation
+Return borrowed books
 
----
+Track borrowing status
 
-## ▶ How to Run
+🖥 Graphical User Interface
 
-### Requirements
-- Qt Creator installed  
-- C++ compiler (MinGW or MSVC)
+Interactive buttons and forms
 
-### Steps
-1. Open Qt Creator  
-2. Open the `.pro` project file  
-3. Click **Build**  
-4. Click **Run**
+Dynamic table updates
 
----
+Dialog messages for feedback
 
-## 📸 Example Functionalities
+🏗 System Design
 
-- Adding a new book via form input  
-- Clicking “Issue Book” updates records  
-- Returning a book marks it available again  
+The system is structured using:
 
----
+Classes to represent books and users
 
-## 🚀 Future Improvements
+STL containers (e.g. vectors) to manage records
 
-- Database integration (SQLite / MySQL)  
-- User login system  
-- Fine calculation for late returns  
-- Barcode scanning  
-- Dark mode UI  
+Qt Signals & Slots to synchronize GUI actions with backend logic
 
----
+Modular functions for each operation (add, borrow, return, search)
 
-## 🎓 Concepts Demonstrated
+This design ensures maintainability and scalability.
 
-- OOP principles  
-- GUI application structure  
-- Event-driven programming  
-- Data management  
+▶ How to Run the Project
+Requirements
 
----
+Qt Creator
 
-## 👨‍💻 Author
+C++ compiler (MinGW or MSVC)
 
-**Phumudzo Matshaya**  
-Software Development | C++ | Qt GUI Projects  
+Steps
 
----
+Clone the repository
+
+Open the .pro file in Qt Creator
+
+Click Build
+
+Click Run
+
+🖼 Example Functionalities
+
+Adding a new book via form input updates the table instantly
+
+Issuing a book changes its availability status
+
+Returning a book restores availability and updates records
+
+🚀 Future Improvements
+
+Database integration (SQLite / MySQL)
+
+User authentication and roles
+
+Late return fine calculation
+
+Barcode scanning support
+
+Dark mode UI
+
+🎓 Concepts Demonstrated
+
+Object-Oriented Programming (OOP)
+
+GUI application architecture
+
+Event-driven programming
+
+Data and state management
+
+👨‍💻 Author
+
+Phumudzo Matshaya
+Software Development • C++ • Qt GUI Applications
