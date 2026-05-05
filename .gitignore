@@ -2,5 +2,3 @@ build/
 .qtcreator/
 *.pro.user
 *.exe
-*.o
-*.obj
